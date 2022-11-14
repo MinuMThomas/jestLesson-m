@@ -1,4 +1,8 @@
-const { TestScheduler } = require("jest");
+/**
+ * @jest-environment jsdom
+ */
+
+
 const buttonClick = require ("../button");
 
 //new Jest directive, beforeEach().
